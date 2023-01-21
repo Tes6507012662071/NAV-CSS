@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: rgb(92, 219, 149);
+    height: 100vh;
+    display: flex;
+    /* background-color: #383838ca; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(92, 219, 149);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+}
+
+.nav .logo{
+    color: rgba(5 , 56 , 107);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 5px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.75px;
+    padding: 8px 10px;
+    border-radius: 0.7em;
+    transition: all o.3ms ease;
+}
+
+.nav ul li a:hover,
+.nav ul li a.active{
+    background-color: rgba(5 , 56 , 107);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    /* display: none; */
+}
